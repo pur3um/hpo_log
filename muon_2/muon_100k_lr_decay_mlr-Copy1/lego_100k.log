@@ -1,0 +1,22 @@
+[I 2026-04-25 06:24:36,983] Using an existing study with name 'lego_aux-muon_stage1only_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only' instead of creating a new one.
+[I 2026-04-25 08:21:58,970] Trial 3 finished with value: 30.61640739440918 and parameters: {'lrate': 0.001781796460603777, 'lrate_decay': 386, 'muon_lrate': 0.0012019450985893186}. Best is trial 2 with value: 30.61640739440918.
+[I 2026-04-25 10:19:48,421] Trial 4 finished with value: 30.609115600585938 and parameters: {'lrate': 0.0017711845940916215, 'lrate_decay': 269, 'muon_lrate': 0.0013274414292574908}. Best is trial 2 with value: 30.61640739440918.
+[W 2026-04-25 11:13:15,631] Trial 5 failed with parameters: {'lrate': 0.0014814854704092697, 'lrate_decay': 457, 'muon_lrate': 0.0027592052977704327} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "stage1_optims_lr_decay_mlr_search.py", line 252, in objective
+    ret = ACTIVE_PROC.wait()
+  File "/venv/nerf/lib/python3.8/subprocess.py", line 1083, in wait
+    return self._wait(timeout=timeout)
+  File "/venv/nerf/lib/python3.8/subprocess.py", line 1822, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/venv/nerf/lib/python3.8/subprocess.py", line 1780, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+  File "stage1_optims_lr_decay_mlr_search.py", line 61, in signal_handler
+    raise KeyboardInterrupt
+KeyboardInterrupt
+[W 2026-04-25 11:13:15,632] Trial 5 failed with value None.
+
+[STOPPED] Interrupted by user. Saving partial summary...
+[DONE] Summary saved to /workspace/nerf-pytorch/logs/100k_muon_lr/lego/aux-muon/lr0p0003_decay100_mlr0.0003_args/lego_aux-muon_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only_summary.json

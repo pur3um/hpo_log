@@ -1,0 +1,27 @@
+[I 2026-04-24 10:12:40,652] A new study created in RDB with name: materials_aux-sign_stage1only_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only
+[I 2026-04-24 12:07:49,730] Trial 0 finished with value: 29.54500389099121 and parameters: {'lrate': 0.001781796460603777, 'lrate_decay': 386, 'muon_lrate': 0.0012019450985893186}. Best is trial 0 with value: 29.54500389099121.
+Traceback (most recent call last):
+  File "stage1_optims_lr_decay_mlr_search.py", line 338, in main
+    
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 63, in _optimize
+    _optimize_sequential(
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 172, in _optimize_sequential
+    callback(study, copy.deepcopy(frozen_trial))
+  File "stage1_optims_lr_decay_mlr_search.py", line 171, in _callback
+    def make_callback(scene, budget_tag, optimizer_tag, fixed_tag, scene_dir, summary_path, args):
+  File "stage1_optims_lr_decay_mlr_search.py", line 133, in save_summary
+    "min_lr": float(args.min_lr),
+AttributeError: 'Namespace' object has no attribute 'min_lrate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "stage1_optims_lr_decay_mlr_search.py", line 349, in <module>
+    
+  File "stage1_optims_lr_decay_mlr_search.py", line 344, in main
+    terminate_active_child()
+  File "stage1_optims_lr_decay_mlr_search.py", line 133, in save_summary
+    "min_lr": float(args.min_lr),
+AttributeError: 'Namespace' object has no attribute 'min_lrate'

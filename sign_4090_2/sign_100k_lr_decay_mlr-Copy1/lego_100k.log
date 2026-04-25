@@ -1,0 +1,3 @@
+[I 2026-04-25 06:26:19,566] Using an existing study with name 'lego_aux-sign_stage1only_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only' instead of creating a new one.
+[I 2026-04-25 08:20:54,430] Trial 1 finished with value: 30.43479347229004 and parameters: {'lrate': 0.001781796460603777, 'lrate_decay': 386, 'muon_lrate': 0.0012019450985893186}. Best is trial 0 with value: 30.43479347229004.
+[I 2026-04-25 10:15:47,530] Trial 2 finished with value: 30.67641258239746 and parameters: {'lrate': 0.0017711845940916215, 'lrate_decay': 269, 'muon_lrate': 0.0013274414292574908}. Best is trial 2 with value: 30.67641258239746.

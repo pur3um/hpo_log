@@ -1,0 +1,3 @@
+[I 2026-04-25 06:26:16,276] Using an existing study with name 'materials_aux-sign_stage1only_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only' instead of creating a new one.
+[I 2026-04-25 08:20:42,614] Trial 1 finished with value: 29.54500389099121 and parameters: {'lrate': 0.001781796460603777, 'lrate_decay': 386, 'muon_lrate': 0.0012019450985893186}. Best is trial 0 with value: 29.54500389099121.
+[I 2026-04-25 10:15:21,288] Trial 2 finished with value: 29.695907592773438 and parameters: {'lrate': 0.0017711845940916215, 'lrate_decay': 269, 'muon_lrate': 0.0013274414292574908}. Best is trial 2 with value: 29.695907592773438.

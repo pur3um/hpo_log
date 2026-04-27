@@ -1,0 +1,28 @@
+[I 2026-04-26 01:00:03,553] A new study created in RDB with name: materials_aux-muon_stage1only_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only
+[W 2026-04-26 01:00:05,180] Trial 0 failed with parameters: {'lrate': 0.001781796460603777, 'lrate_decay': 386, 'muon_lrate': 0.0012019450985893186} because of the following error: RuntimeError("Child process failed with exit code 1: ['/venv/nerf/bin/python', '/workspace/nerf-pytorch/run_inc_optims_optuna_ready.py', '--config', '/workspace/nerf-pytorch/configs/materials.txt', '--basedir', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args', '--expname', 'materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000', '--optimizer', 'aux-muon', '--lrate', '0.001781796460603777', '--lrate_decay', '386', '--muon_lrate', '0.0012019450985893186', '--muon_decay', '0.0', '--muon_momentum', '0.9', '--N_iters', '100000', '--eval_every', '5000', '--max_eval_views', '2', '--metric_out', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args/materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000/metric.json', '--no_reload', '--seed', '0']").
+Traceback (most recent call last):
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "stage1_optims_lr_decay_mlr_search.py", line 256, in objective
+    raise RuntimeError(f"Child process failed with exit code {ret}: {cmd}")
+RuntimeError: Child process failed with exit code 1: ['/venv/nerf/bin/python', '/workspace/nerf-pytorch/run_inc_optims_optuna_ready.py', '--config', '/workspace/nerf-pytorch/configs/materials.txt', '--basedir', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args', '--expname', 'materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000', '--optimizer', 'aux-muon', '--lrate', '0.001781796460603777', '--lrate_decay', '386', '--muon_lrate', '0.0012019450985893186', '--muon_decay', '0.0', '--muon_momentum', '0.9', '--N_iters', '100000', '--eval_every', '5000', '--max_eval_views', '2', '--metric_out', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args/materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000/metric.json', '--no_reload', '--seed', '0']
+[W 2026-04-26 01:00:05,180] Trial 0 failed with value None.
+[DONE] Summary saved to /workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args/materials_aux-muon_100k_lr0p0003_decay100_mlr0.0003_args_muon_lr_only_summary.json
+Traceback (most recent call last):
+  File "stage1_optims_lr_decay_mlr_search.py", line 351, in <module>
+    main()
+  File "stage1_optims_lr_decay_mlr_search.py", line 340, in main
+    study.optimize(objective, n_trials=remaining, callbacks=[callback])
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 63, in _optimize
+    _optimize_sequential(
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 160, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 258, in _run_trial
+    raise func_err
+  File "/venv/nerf/lib/python3.8/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "stage1_optims_lr_decay_mlr_search.py", line 256, in objective
+    raise RuntimeError(f"Child process failed with exit code {ret}: {cmd}")
+RuntimeError: Child process failed with exit code 1: ['/venv/nerf/bin/python', '/workspace/nerf-pytorch/run_inc_optims_optuna_ready.py', '--config', '/workspace/nerf-pytorch/configs/materials.txt', '--basedir', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args', '--expname', 'materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000', '--optimizer', 'aux-muon', '--lrate', '0.001781796460603777', '--lrate_decay', '386', '--muon_lrate', '0.0012019450985893186', '--muon_decay', '0.0', '--muon_momentum', '0.9', '--N_iters', '100000', '--eval_every', '5000', '--max_eval_views', '2', '--metric_out', '/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args/materials_aux-muon_100k_muonlr0p0012019451_adam0p0017817965_decay386_trial000/metric.json', '--no_reload', '--seed', '0']

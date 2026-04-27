@@ -1,0 +1,14 @@
+{
+  "best_val_psnr": 29.996904373168945,
+  "best_iter": 100000,
+  "best_ckpt_path": "/workspace/nerf-pytorch/logs/100k_muon_lr/materials/aux-muon/lr0p0003_decay100_mlr0.0003_args/materials_aux-muon_100k_muonlr0p0023401032_adam0p0025022513_decay212_trial015/best.tar",
+  "lrate": 0.002502251257652659,
+  "muon_lrate": 0.0023401032429047584,
+  "expname": "materials_aux-muon_100k_muonlr0p0023401032_adam0p0025022513_decay212_trial015",
+  "N_iters": 100000,
+  "eval_every": 5000,
+  "max_eval_views": 2,
+  "elapsed_sec": 6397.326547622681,
+  "optimizer": "aux-muon",
+  "seed": 0
+}

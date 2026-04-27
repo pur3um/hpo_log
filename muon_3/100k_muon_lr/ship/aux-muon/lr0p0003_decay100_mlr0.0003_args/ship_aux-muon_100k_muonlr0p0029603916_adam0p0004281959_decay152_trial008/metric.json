@@ -1,0 +1,14 @@
+{
+  "best_val_psnr": 31.169923782348633,
+  "best_iter": 95000,
+  "best_ckpt_path": "/workspace/nerf-pytorch/logs/100k_muon_lr/ship/aux-muon/lr0p0003_decay100_mlr0.0003_args/ship_aux-muon_100k_muonlr0p0029603916_adam0p0004281959_decay152_trial008/best.tar",
+  "lrate": 0.00042819590380203476,
+  "muon_lrate": 0.0029603916186583795,
+  "expname": "ship_aux-muon_100k_muonlr0p0029603916_adam0p0004281959_decay152_trial008",
+  "N_iters": 100000,
+  "eval_every": 5000,
+  "max_eval_views": 2,
+  "elapsed_sec": 6399.833999156952,
+  "optimizer": "aux-muon",
+  "seed": 0
+}

@@ -1,0 +1,171 @@
+Loaded blender (138, 400, 400, 4) torch.Size([40, 4, 4]) [400, 400, 625.0000252084244] ./data/nerf_synthetic/drums
+INFO: Aux-sign optimizer configured. Hidden params: 20, Aux params: 28. 
+Found ckpts []
+Not ndc!
+Begin
+TRAIN views are [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47
+ 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71
+ 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95
+ 96 97 98 99]
+TEST views are [113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130
+ 131 132 133 134 135 136 137]
+VAL views are [100 101 102 103 104 105 106 107 108 109 110 111 112]
+[TRAIN] Iter: 2000 Loss: 0.0147331152 PSNR: 21.835217
+[TRAIN] Iter: 4000 Loss: 0.0075989710 PSNR: 24.266796
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=23.2695, iter=5000)
+[VAL] Iter: 5000 mean PSNR: 23.2695 | best: 23.2695 @ 5000
+[TRAIN] Iter: 6000 Loss: 0.0140003152 PSNR: 22.427910
+[TRAIN] Iter: 8000 Loss: 0.0111625157 PSNR: 23.171658
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=24.3924, iter=10000)
+[VAL] Iter: 10000 mean PSNR: 24.3924 | best: 24.3924 @ 10000
+[TRAIN] Iter: 10000 Loss: 0.0086649023 PSNR: 25.668667
+[TRAIN] Iter: 12000 Loss: 0.0083471732 PSNR: 25.654079
+[TRAIN] Iter: 14000 Loss: 0.0100732232 PSNR: 24.372974
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=25.1641, iter=15000)
+[VAL] Iter: 15000 mean PSNR: 25.1641 | best: 25.1641 @ 15000
+[TRAIN] Iter: 16000 Loss: 0.0106160771 PSNR: 24.038326
+[TRAIN] Iter: 18000 Loss: 0.0097834887 PSNR: 25.218178
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=25.4178, iter=20000)
+[VAL] Iter: 20000 mean PSNR: 25.4178 | best: 25.4178 @ 20000
+[TRAIN] Iter: 20000 Loss: 0.0071882950 PSNR: 25.733932
+[TRAIN] Iter: 22000 Loss: 0.0074822428 PSNR: 25.491076
+[TRAIN] Iter: 24000 Loss: 0.0069091730 PSNR: 25.842808
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=25.8243, iter=25000)
+[VAL] Iter: 25000 mean PSNR: 25.8243 | best: 25.8243 @ 25000
+[TRAIN] Iter: 26000 Loss: 0.0061873533 PSNR: 27.381977
+[TRAIN] Iter: 28000 Loss: 0.0101612685 PSNR: 24.898623
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=26.1291, iter=30000)
+[VAL] Iter: 30000 mean PSNR: 26.1291 | best: 26.1291 @ 30000
+[TRAIN] Iter: 30000 Loss: 0.0103849331 PSNR: 23.918552
+[TRAIN] Iter: 32000 Loss: 0.0054509388 PSNR: 27.519890
+[TRAIN] Iter: 34000 Loss: 0.0079519441 PSNR: 25.302479
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=26.4261, iter=35000)
+[VAL] Iter: 35000 mean PSNR: 26.4261 | best: 26.4261 @ 35000
+[TRAIN] Iter: 36000 Loss: 0.0060274140 PSNR: 27.347736
+[TRAIN] Iter: 38000 Loss: 0.0064499397 PSNR: 26.501766
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=26.7438, iter=40000)
+[VAL] Iter: 40000 mean PSNR: 26.7438 | best: 26.7438 @ 40000
+[TRAIN] Iter: 40000 Loss: 0.0061206608 PSNR: 27.677505
+[TRAIN] Iter: 42000 Loss: 0.0084757106 PSNR: 25.305531
+[TRAIN] Iter: 44000 Loss: 0.0049003311 PSNR: 28.322033
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=26.8453, iter=45000)
+[VAL] Iter: 45000 mean PSNR: 26.8453 | best: 26.8453 @ 45000
+[TRAIN] Iter: 46000 Loss: 0.0084769884 PSNR: 25.886372
+[TRAIN] Iter: 48000 Loss: 0.0065513533 PSNR: 26.739780
+[VAL] Iter: 50000 mean PSNR: 26.8330 | best: 26.8453 @ 45000
+[TRAIN] Iter: 50000 Loss: 0.0092275562 PSNR: 26.354176
+[TRAIN] Iter: 52000 Loss: 0.0061586238 PSNR: 27.424397
+[TRAIN] Iter: 54000 Loss: 0.0059115984 PSNR: 27.441748
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.0666, iter=55000)
+[VAL] Iter: 55000 mean PSNR: 27.0666 | best: 27.0666 @ 55000
+[TRAIN] Iter: 56000 Loss: 0.0049020867 PSNR: 27.938215
+[TRAIN] Iter: 58000 Loss: 0.0063705491 PSNR: 27.091463
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.3186, iter=60000)
+[VAL] Iter: 60000 mean PSNR: 27.3186 | best: 27.3186 @ 60000
+[TRAIN] Iter: 60000 Loss: 0.0052720909 PSNR: 28.253336
+[TRAIN] Iter: 62000 Loss: 0.0070593259 PSNR: 26.095505
+[TRAIN] Iter: 64000 Loss: 0.0084073348 PSNR: 26.017561
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.4302, iter=65000)
+[VAL] Iter: 65000 mean PSNR: 27.4302 | best: 27.4302 @ 65000
+[TRAIN] Iter: 66000 Loss: 0.0046444517 PSNR: 27.394989
+[TRAIN] Iter: 68000 Loss: 0.0043687634 PSNR: 29.351269
+[VAL] Iter: 70000 mean PSNR: 27.2814 | best: 27.4302 @ 65000
+[TRAIN] Iter: 70000 Loss: 0.0060126968 PSNR: 26.829931
+[TRAIN] Iter: 72000 Loss: 0.0045771343 PSNR: 27.785069
+[TRAIN] Iter: 74000 Loss: 0.0065410398 PSNR: 26.229229
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.7197, iter=75000)
+[VAL] Iter: 75000 mean PSNR: 27.7197 | best: 27.7197 @ 75000
+[TRAIN] Iter: 76000 Loss: 0.0079479152 PSNR: 27.046194
+[TRAIN] Iter: 78000 Loss: 0.0043717003 PSNR: 28.539528
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.7675, iter=80000)
+[VAL] Iter: 80000 mean PSNR: 27.7675 | best: 27.7675 @ 80000
+[TRAIN] Iter: 80000 Loss: 0.0065043257 PSNR: 27.338259
+[TRAIN] Iter: 82000 Loss: 0.0066210497 PSNR: 27.910873
+[TRAIN] Iter: 84000 Loss: 0.0048239855 PSNR: 28.184185
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.8474, iter=85000)
+[VAL] Iter: 85000 mean PSNR: 27.8474 | best: 27.8474 @ 85000
+[TRAIN] Iter: 86000 Loss: 0.0057422318 PSNR: 27.485514
+[TRAIN] Iter: 88000 Loss: 0.0058934437 PSNR: 28.662239
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.8820, iter=90000)
+[VAL] Iter: 90000 mean PSNR: 27.8820 | best: 27.8820 @ 90000
+[TRAIN] Iter: 90000 Loss: 0.0027886324 PSNR: 31.016174
+[TRAIN] Iter: 92000 Loss: 0.0046066623 PSNR: 28.168142
+[TRAIN] Iter: 94000 Loss: 0.0086797634 PSNR: 25.931843
+[VAL] Iter: 95000 mean PSNR: 27.8772 | best: 27.8820 @ 90000
+[TRAIN] Iter: 96000 Loss: 0.0055474523 PSNR: 29.418623
+[TRAIN] Iter: 98000 Loss: 0.0058948179 PSNR: 26.356201
+Saved checkpoints at /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/100000.tar
+[BEST] Saved best checkpoint to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/best.tar (PSNR=27.9869, iter=100000)
+[VAL] Iter: 100000 mean PSNR: 27.9869 | best: 27.9869 @ 100000
+0 0.0002186298370361328
+torch.Size([400, 400, 3]) torch.Size([400, 400])
+1 4.015962600708008
+2 4.095377206802368
+3 4.094151973724365
+4 4.116605281829834
+5 4.1364524364471436
+6 4.117988586425781
+7 4.107555389404297
+8 4.11280083656311
+9 4.1169116497039795
+10 4.088973045349121
+11 4.133325576782227
+12 4.097116947174072
+13 4.162849187850952
+14 4.171539783477783
+15 4.132761001586914
+16 4.141765832901001
+17 4.195143461227417
+18 4.149086236953735
+19 4.136392831802368
+20 4.1696085929870605
+21 4.1981360912323
+22 4.123361587524414
+23 4.161379337310791
+24 4.191663026809692
+25 4.154284954071045
+26 4.183893203735352
+27 4.14699649810791
+28 4.17949104309082
+29 4.206844806671143
+30 4.136571645736694
+31 4.2130982875823975
+32 4.162204265594482
+33 4.173099517822266
+34 4.217158079147339
+35 4.2132909297943115
+36 4.188230752944946
+37 4.172398090362549
+38 4.196939468383789
+39 4.167597770690918
+test poses shape torch.Size([25, 4, 4])
+0 0.0005447864532470703
+torch.Size([400, 400, 3]) torch.Size([400, 400])
+1 3.990764617919922
+2 4.136842966079712
+3 4.145220518112183
+4 4.163320064544678
+5 4.198448419570923
+6 4.181779146194458
+7 4.201913595199585
+8 4.188044548034668
+9 4.202409982681274
+10 4.162521123886108
+11 4.222090005874634
+12 4.165104866027832
+13 4.207246541976929
+14 4.196902513504028
+15 4.195652961730957
+16 4.189959287643433
+17 4.199472188949585
+18 4.184629917144775
+19 4.240291595458984
+20 4.189854860305786
+21 4.207616806030273
+22 4.174184083938599
+23 4.212438344955444
+24 4.187128067016602
+Saved test set
+[TRAIN] Iter: 100000 Loss: 0.0044667027 PSNR: 28.522854
+Saved metric json to /workspace/nerf-pytorch/logs/100k_muon_lr/drums/aux-sign/lr0p0003_decay100_mlr0.0003_args/drums_aux-sign_100k_muonlr0p0029244739_adam0p002810029_decay111_trial006/metric.json

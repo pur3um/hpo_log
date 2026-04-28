@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/nerf-pytorch/run_inc_optims_optuna_ready.py", line 889, in <module>
+    train()
+  File "/workspace/nerf-pytorch/run_inc_optims_optuna_ready.py", line 639, in train
+    images, poses, bds, render_poses, i_test = load_llff_data(args.datadir, args.factor, recenter=True, bd_factor=.75, spherify=args.spherify)
+  File "/workspace/nerf-pytorch/load_llff.py", line 246, in load_llff_data
+    poses, bds, imgs = _load_data(basedir, factor=factor) # factor=8 downsamples original imgs by 8x
+  File "/workspace/nerf-pytorch/load_llff.py", line 64, in _load_data
+    poses_arr = np.load(os.path.join(basedir, 'poses_bounds.npy'))
+  File "/venv/nerf/lib/python3.8/site-packages/numpy/lib/npyio.py", line 405, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: './data/nerf_llff_data/materials/poses_bounds.npy'

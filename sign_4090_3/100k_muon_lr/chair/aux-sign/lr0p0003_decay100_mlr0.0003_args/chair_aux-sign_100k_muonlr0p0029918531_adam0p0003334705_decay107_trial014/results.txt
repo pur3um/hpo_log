@@ -1,0 +1,19 @@
+====================================================================================================
+run_start_time: 2026-04-27 14:08:39
+script: run_nerf_muon.py
+expname: chair_aux-sign_100k_muonlr0p0029918531_adam0p0003334705_decay107_trial014
+dataset_type: blender
+datadir: ./data/nerf_synthetic/chair
+resume_start_step: 0
+optimizer_setup:
+  optimizer_main: Muon
+  muon_lr_init: 0.002991853132208196
+  muon_weight_decay: 0.0
+  muon_momentum: 0.9
+  optimizer_aux: Adam
+  aux_adam_lr_init: 0.00033347054226753154
+  aux_adam_betas: (0.9, 0.999)
+  lrate_decay_ksteps: 107
+  muon_tensor_count: 48
+  muon_total_params: 1191688
+train_psnr_log:

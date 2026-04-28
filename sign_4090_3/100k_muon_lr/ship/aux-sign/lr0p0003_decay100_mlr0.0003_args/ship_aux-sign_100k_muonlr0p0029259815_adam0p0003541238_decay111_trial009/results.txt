@@ -1,0 +1,19 @@
+====================================================================================================
+run_start_time: 2026-04-25 00:03:58
+script: run_nerf_muon.py
+expname: ship_aux-sign_100k_muonlr0p0029259815_adam0p0003541238_decay111_trial009
+dataset_type: blender
+datadir: ./data/nerf_synthetic/ship
+resume_start_step: 0
+optimizer_setup:
+  optimizer_main: Muon
+  muon_lr_init: 0.0029259814710696215
+  muon_weight_decay: 0.0
+  muon_momentum: 0.9
+  optimizer_aux: Adam
+  aux_adam_lr_init: 0.00035412377657100045
+  aux_adam_betas: (0.9, 0.999)
+  lrate_decay_ksteps: 111
+  muon_tensor_count: 48
+  muon_total_params: 1191688
+train_psnr_log:

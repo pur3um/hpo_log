@@ -1,0 +1,14 @@
+{
+  "best_val_psnr": 33.5897216796875,
+  "best_iter": 100000,
+  "best_ckpt_path": "/workspace/nerf-pytorch/logs/100k_muon_lr/chair/aux-sign/lr0p0003_decay100_mlr0.0003_args/chair_aux-sign_100k_muonlr0p0029918531_adam0p0003334705_decay107_trial014/best.tar",
+  "lrate": 0.00033347054226753154,
+  "muon_lrate": 0.002991853132208196,
+  "expname": "chair_aux-sign_100k_muonlr0p0029918531_adam0p0003334705_decay107_trial014",
+  "N_iters": 100000,
+  "eval_every": 5000,
+  "max_eval_views": 2,
+  "elapsed_sec": 7267.492009401321,
+  "optimizer": "aux-sign",
+  "seed": 0
+}
